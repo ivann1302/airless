@@ -1,0 +1,118 @@
+.certificates-section {
+  background: transparent;
+  padding: 48px 24px 36px;
+}
+
+.certificates-section .section-header {
+  margin-bottom: 28px;
+}
+
+.certificates-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.certificate-card {
+  position: relative;
+  border: none;
+  padding: 0;
+  background: var(--color-surface);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.12);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.certificate-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.82);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  padding: 24px;
+}
+
+.certificate-modal-content {
+  width: min(860px, 100%);
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--color-white);
+  box-shadow: 0 40px 90px rgba(15, 23, 42, 0.18);
+  position: relative;
+}
+
+.certificate-modal-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.08);
+  cursor: pointer;
+}
+
+.certificate-modal-close::before,
+.certificate-modal-close::after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 17px;
+  width: 2px;
+  height: 18px;
+  background: var(--color-text-dark);
+}
+
+.certificate-modal-close::before {
+  transform: rotate(45deg);
+}
+
+.certificate-modal-close::after {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 980px) {
+  .certificates-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .certificates-section {
+    padding: 36px 16px 28px;
+  }
+
+  .certificates-section .section-header {
+    text-align: center;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card img {
+    height: 200px;
+  }
+}

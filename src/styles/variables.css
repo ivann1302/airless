@@ -1,0 +1,35 @@
+:root {
+  --hero-bg-image: url('/hero-airless.jpeg');
+
+  --color-bg: #f6f7fb;
+  --color-surface: #f8fafc;
+  --color-surface-strong: #f0f5ff;
+  --color-surface-muted: #F1F5F9;
+  --color-white: #ffffff;
+  --color-text: #111827;
+  --color-text-dark: #111827;
+  --color-text-soft: #334155;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-brand: #93b4ff;
+  --color-text-white: rgba(255, 255, 255, 1);
+  --color-text-white-soft: rgba(255, 255, 255, 0.75);
+  --color-text-white-strong: rgba(255, 255, 255, 0.8);
+  --color-accent: #1A56DB;
+  --color-accent-strong: #2563eb;
+  --color-hero-bg: #12359e;
+  --color-footer-bg: #0d2d90;
+  --color-border: #e2e8f0;
+  --color-border-muted: #cbd5e1;
+  --color-border-dark-muted: rgba(30, 41, 59, 0.16);
+  --color-border-white: rgba(255, 255, 255, 0.35);
+  --color-border-white-soft: rgba(255, 255, 255, 0.15);
+  --color-border-white-lighter: rgba(255, 255, 255, 0.18);
+  --color-border-white-faint: rgba(255, 255, 255, 0.1);
+  --color-text-white-medium: rgba(255, 255, 255, 0.85);
+  --color-text-white-muted: rgba(255, 255, 255, 0.6);
+  --color-overlay: rgba(15, 48, 168, 0.2);
+  --color-overlay-soft: rgba(255, 255, 255, 0.08);
+  --color-overlay-lighter: rgba(255, 255, 255, 0.12);
+  --color-link-hover: #0d3bc7;
+}

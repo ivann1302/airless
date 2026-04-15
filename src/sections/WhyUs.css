@@ -1,0 +1,69 @@
+.whyus-section {
+  background: var(--color-white);
+  padding: 72px 24px;
+}
+
+.whyus-section .section-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.whyus-section .section-header {
+  margin-bottom: 48px;
+}
+
+.whyus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.whyus-card {
+  background: var(--color-surface-muted);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.whyus-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--color-accent);
+  border-radius: 12px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+
+.whyus-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.whyus-card p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .whyus-section {
+    padding: 48px 16px;
+  }
+
+  .whyus-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .whyus-card {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,132 @@
+.services {
+  padding: 100px 0;
+  background: var(--color-white);
+}
+
+.services__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.services__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.services__header h2 {
+  margin-top: 10px;
+}
+
+/* List */
+.services__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.services__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 40px 36px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.services__item:nth-child(odd) {
+  border-right: 1px solid var(--color-border);
+}
+
+.services__item:nth-child(1),
+.services__item:nth-child(2) {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Icon badge */
+.services__icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: var(--color-surface-strong);
+  color: var(--color-accent);
+  margin-top: 2px;
+}
+
+.services__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Text */
+.services__text h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin: 0 0 10px;
+}
+
+.services__text p {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .services {
+    padding: 64px 0;
+  }
+
+  .services__inner {
+    padding: 0 20px;
+  }
+
+  .services__header {
+    margin-bottom: 40px;
+  }
+
+  .services__list {
+    grid-template-columns: 1fr;
+  }
+
+  .services__item {
+    gap: 18px;
+    padding: 28px 0;
+    border-right: none !important;
+  }
+
+  .services__item:first-child {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .services__item:nth-child(2) {
+    border-top: none;
+  }
+
+  .services__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+  }
+
+  .services__icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .services__text h3 {
+    font-size: 1.1rem;
+  }
+
+  .services__text p {
+    font-size: 0.95rem;
+  }
+}

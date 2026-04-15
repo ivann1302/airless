@@ -1,0 +1,214 @@
+.reviews-section {
+  padding: 72px 0 56px;
+  background: var(--color-white);
+}
+
+.reviews-inner {
+  display: grid;
+  gap: 36px;
+}
+
+/* ── Stage: arrow | track | arrow ── */
+.reviews-stage {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* Track — clips overflowing hidden cards */
+.reviews-track {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  min-height: 500px;
+  touch-action: pan-y;
+}
+
+/* ── Cards ── */
+.review-card {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 320px;
+  min-height: 480px;
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Active — center */
+.review-card--active {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Prev — left of center */
+.review-card--prev {
+  opacity: 0.55;
+  transform: translateX(calc(-50% - 340px)) scale(0.92);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Next — right of center */
+.review-card--next {
+  opacity: 0.55;
+  transform: translateX(calc(-50% + 340px)) scale(0.92);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Hidden — off screen */
+.review-card--hidden {
+  opacity: 0;
+  transform: translateX(-50%) scale(0.8);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Stars */
+.review-stars {
+  font-size: 1.3rem;
+  color: #f59e0b;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+/* Quote */
+.review-text {
+  margin: 0;
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-soft);
+  font-style: italic;
+}
+
+/* Author */
+.review-author {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+.review-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+}
+
+.review-role {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* ── Arrows — blue, sit outside the track ── */
+.reviews-arrow {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: none;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 1.9rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 14px rgba(26, 86, 219, 0.35);
+  line-height: 1;
+  z-index: 3;
+  margin: 0 16px;
+}
+
+.reviews-arrow:hover {
+  background: var(--color-accent-strong);
+  transform: scale(1.07);
+}
+
+/* ── Dots ── */
+.reviews-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.reviews-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-border-muted);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.reviews-dot.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(1.2);
+}
+
+/* ── Tablet — 3 cards, smaller ── */
+@media (max-width: 1100px) {
+  .review-card {
+    width: 280px;
+    min-height: 440px;
+    padding: 28px 24px;
+  }
+
+  .review-card--prev { transform: translateX(calc(-50% - 300px)) scale(0.92); }
+  .review-card--next { transform: translateX(calc(-50% + 300px)) scale(0.92); }
+
+  .reviews-track { min-height: 460px; }
+  .reviews-arrow { margin: 0 8px; }
+}
+
+/* ── Mobile — 1 card, swipe only ── */
+@media (max-width: 600px) {
+  .reviews-section {
+    padding: 52px 0 40px;
+  }
+
+  .reviews-stage {
+    flex-direction: column;
+  }
+
+  /* Hide arrows on mobile */
+  .reviews-arrow {
+    display: none;
+  }
+
+  .reviews-track {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .review-card {
+    width: min(300px, 85vw);
+    min-height: 360px;
+    padding: 24px 20px;
+  }
+
+  /* Hide side cards on mobile — swipe navigates */
+  .review-card--prev,
+  .review-card--next {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
