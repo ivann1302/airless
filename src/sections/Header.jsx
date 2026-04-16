@@ -16,7 +16,7 @@ export function Header() {
           <a href="#services" onClick={close}>Услуги</a>
           <a href="#howwework" onClick={close}>Как работаем</a>
           <a href="#portfolio" onClick={close}>Портфолио</a>
-          <a href="#pricing" onClick={close}>Цены</a>
+          <a href="#reviews" onClick={close}>Отзывы</a>
           <a href="#faq" onClick={close}>FAQ</a>
           <a className="nav-cta-mobile" href={PHONE_LINK} onClick={close}>{PHONE_DISPLAY}</a>
         </nav>

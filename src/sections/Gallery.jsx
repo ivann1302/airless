@@ -52,7 +52,7 @@ export function Gallery() {
   }, [activeIndex, closeModal]);
 
   return (
-    <section className="section gallery-section">
+    <section className="section gallery-section" id="portfolio">
       <div className="section-header">
         <span className="eyebrow">Наши работы</span>
         <h2>Галерея выполненных объектов</h2>

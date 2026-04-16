@@ -28,7 +28,7 @@ export function Faq() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="section faq-section">
+    <section className="section faq-section" id="faq">
       <div className="section-header">
         <span className="eyebrow">Частые вопросы</span>
         <h2>Ответы на основные вопросы клиентов</h2>

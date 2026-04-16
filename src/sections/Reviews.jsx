@@ -78,7 +78,7 @@ export function Reviews() {
   };
 
   return (
-    <section className="reviews-section">
+    <section className="reviews-section" id="reviews">
       <div className="reviews-inner page">
         <div className="section-header">
           <span className="eyebrow">Отзывы</span>
