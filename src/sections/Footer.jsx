@@ -8,7 +8,7 @@ export function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <span className="logo">{BRAND_NAME}</span>
-          <p>Покраска airless по Москве и Московской области.</p>
+          <p>Безвоздушная по Москве и Московской области.</p>
         </div>
 
         <div className="footer-links">

@@ -1,3 +1,17 @@
+/* ── Logo icon ──────────────────────────────────── */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-icon {
+  height: 78px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
 /* ── Nav (desktop) ─────────────────────────────── */
 .nav-list {
   display: flex;
@@ -23,6 +37,13 @@
 /* Кнопка "Позвонить" в хедере — только на десктопе */
 .header-cta--desktop {
   display: inline-flex;
+}
+
+/* Кнопка MAX — вторичный стиль */
+.header-cta--max {
+  background: transparent;
+  border: 2px solid var(--color-white);
+  color: var(--color-white) !important;
 }
 
 /* ── Burger ─────────────────────────────────────── */
@@ -68,6 +89,12 @@
 
 /* ── Mobile ─────────────────────────────────────── */
 @media (max-width: 768px) {
+  /* Иконка логотипа — справа от текста на мобильной */
+  .logo-icon {
+    order: 1;
+    height: 58px;
+  }
+
   /* Бургер виден */
   .burger {
     display: flex;
@@ -101,6 +128,23 @@
     padding: 14px 0;
     font-size: 1.05rem;
     border-bottom: 1px solid var(--color-border-white-faint);
+  }
+
+  /* Кнопка MAX внутри открытого меню */
+  .nav-list--open .nav-cta-max-mobile {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 8px;
+    background: transparent;
+    border: 2px solid var(--color-white);
+    color: var(--color-white) !important;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 14px 24px;
+    border-bottom: none !important;
+    min-height: 50px;
+    align-items: center;
+    text-align: center;
   }
 
   /* Кнопка "Позвонить" внутри открытого меню */

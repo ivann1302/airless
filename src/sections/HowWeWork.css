@@ -96,6 +96,14 @@
     padding: 56px 0;
   }
 
+  .howwework-header {
+    text-align: center;
+  }
+
+  .howwework-header h2 {
+    text-align: center;
+  }
+
   .howwework-grid {
     grid-template-columns: 1fr;
     border-radius: 16px;

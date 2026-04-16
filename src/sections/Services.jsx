@@ -86,6 +86,12 @@ export function Services() {
           ))}
         </ul>
       </div>
+      <img
+        src="/airless/airlessservice.png"
+        alt=""
+        className="services__deco"
+        aria-hidden="true"
+      />
     </section>
   );
 }

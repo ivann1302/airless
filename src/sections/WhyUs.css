@@ -1,11 +1,28 @@
 .whyus-section {
   background: var(--color-white);
   padding: 72px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.whyus__deco {
+  position: absolute;
+  right: 0;
+  top: -22px;
+  width: 140px;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(to left, black 60%, transparent 100%);
+  mask-image: linear-gradient(to left, black 60%, transparent 100%);
 }
 
 .whyus-section .section-inner {
   max-width: 1180px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .whyus-section .section-header {
@@ -65,5 +82,16 @@
 
   .whyus-card {
     padding: 24px;
+  }
+
+  .whyus__deco {
+    position: static;
+    display: block;
+    transform: none;
+    width: 100%;
+    max-width: 118px;
+    margin: 40px auto 0;
+    -webkit-mask-image: none;
+    mask-image: none;
   }
 }

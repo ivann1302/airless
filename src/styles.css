@@ -49,7 +49,7 @@ a {
   justify-content: space-between;
   max-width: 1180px;
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 9px 24px 9px;
 }
 
 .logo {
@@ -420,5 +420,13 @@ textarea {
   .grid-3,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+
+  .section-header h2 {
+    text-align: center;
   }
 }

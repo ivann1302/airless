@@ -16,6 +16,14 @@
   color: var(--color-white);
 }
 
+.cta-decorimg {
+  order: -1;
+  max-height: 210px;
+  width: auto;
+  flex-shrink: 0;
+  align-self: center;
+}
+
 .cta-text {
   flex: 1 1 320px;
 }
@@ -124,7 +132,17 @@
     max-width: 100%;
   }
 
+  .cta-decorimg {
+    order: 2;
+    max-height: 180px;
+  }
+
+  .cta-text {
+    order: 1;
+  }
+
   .cta-actions {
+    order: 3;
     width: 100%;
   }
 

@@ -1,9 +1,10 @@
 import './WhyUs.css';
+import airlessmanImg from '../assets/airlessman.png';
 
 const ITEMS = [
   {
     icon: '🖌️',
-    title: 'Технология airless',
+    title: 'Технология безвоздушной покраски',
     text: 'Безвоздушное распыление без следов кисти и валика — идеально ровное покрытие на любой поверхности.',
   },
   {
@@ -41,6 +42,12 @@ export function WhyUs() {
           ))}
         </div>
       </div>
+      <img
+        src={airlessmanImg}
+        alt=""
+        className="whyus__deco"
+        aria-hidden="true"
+      />
     </section>
   );
 }

@@ -1,14 +1,16 @@
 import './Cta.css';
 import { MAX_LINK, PHONE_LINK, PHONE_DISPLAY } from '../config/siteConfig';
+import airlesscallImg from '../assets/airlesscall.png';
 
 export function Cta() {
   return (
     <section className="section cta-section">
       <div className="cta-card-v2">
+        <img className="cta-decorimg" src={airlesscallImg} alt="" aria-hidden="true" />
         <div className="cta-text">
           <span>Готовы начать?</span>
           <h2>Получите бесплатный расчёт прямо сейчас</h2>
-          <p>Заполните короткую форму или напишите нам — ответим в течение 30 минут.</p>
+          <p>Позвоните нам. Или напишие — ответим в течение 30 минут.</p>
         </div>
 
         <div className="cta-actions">

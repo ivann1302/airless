@@ -1,0 +1,2259 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 1440,
+      "height": 5100,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "jK6BE",
+          "x": 0,
+          "y": 0,
+          "name": "Header",
+          "width": 1440,
+          "height": 80,
+          "fill": "#1A56DB",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "6qf7R",
+              "x": 80,
+              "y": 20,
+              "fill": "#FFFFFF",
+              "content": "Красим.ру",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "gKYYB",
+              "x": 560,
+              "y": 26,
+              "fill": "#FFFFFF",
+              "content": "+7 (XXX) XXX-XX-XX",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "cBhdX",
+              "x": 1180,
+              "y": 16,
+              "name": "mbtn",
+              "width": 180,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MSQLg",
+                  "x": 16,
+                  "y": 14,
+                  "fill": "#1A56DB",
+                  "content": "Написать в МАКС",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Yj3nQ",
+          "x": 0,
+          "y": 880,
+          "name": "Преимущества",
+          "width": 1440,
+          "height": 340,
+          "fill": "#F1F5F9",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "r0NIj",
+              "x": 80,
+              "y": 48,
+              "fill": "#111827",
+              "content": "Почему выбирают нас",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "nVMKP",
+              "x": 80,
+              "y": 128,
+              "name": "c1",
+              "width": 300,
+              "height": 148,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iHA89",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#111827",
+                  "content": "Быстро",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "DeA41",
+                  "x": 24,
+                  "y": 60,
+                  "fill": "#6B7280",
+                  "content": "Красим квартиру за 1–2 дня",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DIgbM",
+              "x": 406,
+              "y": 128,
+              "name": "c2",
+              "width": 300,
+              "height": 148,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HnyKf",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#111827",
+                  "content": "Чисто",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "7BgTn",
+                  "x": 24,
+                  "y": 60,
+                  "fill": "#6B7280",
+                  "content": "Работаем с защитой — без пыли и брызг",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PMxYV",
+              "x": 732,
+              "y": 128,
+              "name": "c3",
+              "width": 300,
+              "height": 148,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RBlfV",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#111827",
+                  "content": "Ровно",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tRyXR",
+                  "x": 24,
+                  "y": 60,
+                  "fill": "#6B7280",
+                  "content": "Безвоздушное нанесение — идеальный слой",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a2eu3",
+              "x": 1058,
+              "y": 128,
+              "name": "c4",
+              "width": 300,
+              "height": 148,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3ieeW",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#111827",
+                  "content": "Выгодно",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "g7bmq",
+                  "x": 24,
+                  "y": 60,
+                  "fill": "#6B7280",
+                  "content": "Договор, фиксированная цена и гарантия",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZGFYx",
+          "x": 0,
+          "y": 2200,
+          "name": "Как работаем",
+          "width": 1440,
+          "height": 400,
+          "fill": "#1A56DB",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "tyI2g",
+              "x": 80,
+              "y": 48,
+              "fill": "#FFFFFF",
+              "content": "Как мы работаем",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "D4hwm",
+              "x": 80,
+              "y": 136,
+              "name": "st1",
+              "width": 280,
+              "height": 200,
+              "fill": "#1E60E8",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lBwmY",
+                  "x": 24,
+                  "y": 20,
+                  "fill": "#93C5FD",
+                  "content": "01",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "cZVYI",
+                  "x": 24,
+                  "y": 68,
+                  "fill": "#FFFFFF",
+                  "content": "Заявка",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "1vQrG",
+                  "x": 24,
+                  "y": 104,
+                  "fill": "#BFDBFE",
+                  "content": "Звоните или пишите — ответим сразу",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bs7os",
+              "x": 386,
+              "y": 136,
+              "name": "st2",
+              "width": 280,
+              "height": 200,
+              "fill": "#1E60E8",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y4fkJ",
+                  "x": 24,
+                  "y": 20,
+                  "fill": "#93C5FD",
+                  "content": "02",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "82VYN",
+                  "x": 24,
+                  "y": 68,
+                  "fill": "#FFFFFF",
+                  "content": "Замер",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "mQEpt",
+                  "x": 24,
+                  "y": 104,
+                  "fill": "#BFDBFE",
+                  "content": "Приедем, замерим, дадим точную цену",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y3SJa",
+              "x": 692,
+              "y": 136,
+              "name": "st3",
+              "width": 280,
+              "height": 200,
+              "fill": "#1E60E8",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pNy5q",
+                  "x": 24,
+                  "y": 20,
+                  "fill": "#93C5FD",
+                  "content": "03",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "HoOpi",
+                  "x": 24,
+                  "y": 68,
+                  "fill": "#FFFFFF",
+                  "content": "Покраска",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "E8h5P",
+                  "x": 24,
+                  "y": 104,
+                  "fill": "#BFDBFE",
+                  "content": "Работаем быстро и аккуратно, защищаем мебель",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aVwj3",
+              "x": 998,
+              "y": 136,
+              "name": "st4",
+              "width": 280,
+              "height": 200,
+              "fill": "#1E60E8",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MxYHG",
+                  "x": 24,
+                  "y": 20,
+                  "fill": "#93C5FD",
+                  "content": "04",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "DasLR",
+                  "x": 24,
+                  "y": 68,
+                  "fill": "#FFFFFF",
+                  "content": "Сдача",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Zbitf",
+                  "x": 24,
+                  "y": 104,
+                  "fill": "#BFDBFE",
+                  "content": "Принимаете работу и подписываете акт",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3fCIm",
+          "x": 0,
+          "y": 2600,
+          "name": "Портфолио",
+          "width": 1440,
+          "height": 480,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "yaZFx",
+              "x": 80,
+              "y": 48,
+              "fill": "#111827",
+              "content": "Наши работы",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "EUCT3",
+              "x": 80,
+              "y": 128,
+              "name": "p1",
+              "width": 406,
+              "height": 300,
+              "fill": "#F1F5F9",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nD0wb",
+                  "x": 0,
+                  "y": 0,
+                  "name": "ph1",
+                  "width": 406,
+                  "height": 200,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 16,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4fL6L",
+                      "x": 0,
+                      "y": 88,
+                      "fill": "#94A3B8",
+                      "content": "До / После",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VVMWG",
+                  "x": 24,
+                  "y": 216,
+                  "fill": "#111827",
+                  "content": "Квартира, Москва",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "hBUAU",
+                  "x": 24,
+                  "y": 248,
+                  "fill": "#6B7280",
+                  "content": "180 м², 2 дня",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YUw7e",
+              "x": 517,
+              "y": 128,
+              "name": "p2",
+              "width": 406,
+              "height": 300,
+              "fill": "#F1F5F9",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hBoxq",
+                  "x": 0,
+                  "y": 0,
+                  "name": "ph2",
+                  "width": 406,
+                  "height": 200,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 16,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1gBdR",
+                      "x": 0,
+                      "y": 88,
+                      "fill": "#94A3B8",
+                      "content": "До / После",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zrmYw",
+                  "x": 24,
+                  "y": 216,
+                  "fill": "#111827",
+                  "content": "Офис, Москва-Сити",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Yn1HZ",
+                  "x": 24,
+                  "y": 248,
+                  "fill": "#6B7280",
+                  "content": "420 м², 3 дня",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wUgJ5",
+              "x": 954,
+              "y": 128,
+              "name": "p3",
+              "width": 406,
+              "height": 300,
+              "fill": "#F1F5F9",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1BP2k",
+                  "x": 0,
+                  "y": 0,
+                  "name": "ph3",
+                  "width": 406,
+                  "height": 200,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 16,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WAHgY",
+                      "x": 0,
+                      "y": 88,
+                      "fill": "#94A3B8",
+                      "content": "До / После",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "uoIJx",
+                  "x": 24,
+                  "y": 216,
+                  "fill": "#111827",
+                  "content": "Фасад, Подмосковье",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "IX3Aw",
+                  "x": 24,
+                  "y": 248,
+                  "fill": "#6B7280",
+                  "content": "800 м², 5 дней",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uzWl2",
+          "x": 0,
+          "y": 3080,
+          "name": "Цены",
+          "width": 1440,
+          "height": 480,
+          "fill": "#F1F5F9",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "FDqpy",
+              "x": 80,
+              "y": 48,
+              "fill": "#111827",
+              "content": "Стоимость работ",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "ypOTR",
+              "x": 80,
+              "y": 128,
+              "name": "pr1",
+              "width": 406,
+              "height": 308,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "J6wQk",
+                  "x": 24,
+                  "y": 28,
+                  "fill": "#111827",
+                  "content": "Стены",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WXOaF",
+                  "x": 24,
+                  "y": 76,
+                  "fill": "#1A56DB",
+                  "content": "от 80 ₽/м²",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hPsIL",
+                  "x": 24,
+                  "y": 128,
+                  "fill": "#6B7280",
+                  "content": "Грунтование, 1 слой краски, равномерное покрытие",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "nF4KE",
+                  "x": 24,
+                  "y": 244,
+                  "name": "prb1",
+                  "width": 358,
+                  "height": 44,
+                  "fill": "#1A56DB",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ag3jJ",
+                      "x": 0,
+                      "y": 12,
+                      "fill": "#FFFFFF",
+                      "content": "Заказать",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pb0wu",
+              "x": 517,
+              "y": 128,
+              "name": "pr2",
+              "width": 406,
+              "height": 308,
+              "fill": "#1A56DB",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qv4D4",
+                  "x": 24,
+                  "y": 28,
+                  "fill": "#FFFFFF",
+                  "content": "Потолки",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "IZA9h",
+                  "x": 24,
+                  "y": 76,
+                  "fill": "#FFFFFF",
+                  "content": "от 100 ₽/м²",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "nl67g",
+                  "x": 24,
+                  "y": 128,
+                  "fill": "#BFDBFE",
+                  "content": "Грунтование, 2 слоя, идеально ровная поверхность",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Yf0VR",
+                  "x": 24,
+                  "y": 244,
+                  "name": "prb2",
+                  "width": 358,
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mT5bM",
+                      "x": 0,
+                      "y": 12,
+                      "fill": "#1A56DB",
+                      "content": "Заказать",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WUtxh",
+              "x": 954,
+              "y": 128,
+              "name": "pr3",
+              "width": 406,
+              "height": 308,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b36Er",
+                  "x": 24,
+                  "y": 28,
+                  "fill": "#111827",
+                  "content": "Фасады",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "2wTbs",
+                  "x": 24,
+                  "y": 76,
+                  "fill": "#1A56DB",
+                  "content": "от 60 ₽/м²",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "FoRGS",
+                  "x": 24,
+                  "y": 128,
+                  "fill": "#6B7280",
+                  "content": "Атмосферостойкая краска, долговечное покрытие",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "VrKdh",
+                  "x": 24,
+                  "y": 244,
+                  "name": "prb3",
+                  "width": 358,
+                  "height": 44,
+                  "fill": "#1A56DB",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l5PYO",
+                      "x": 0,
+                      "y": 12,
+                      "fill": "#FFFFFF",
+                      "content": "Заказать",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XL35K",
+          "x": 0,
+          "y": 3560,
+          "name": "Отзывы",
+          "width": 1440,
+          "height": 380,
+          "fill": "#1A56DB",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "vuSom",
+              "x": 80,
+              "y": 48,
+              "fill": "#FFFFFF",
+              "content": "Отзывы клиентов",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "mU3zd",
+              "x": 80,
+              "y": 128,
+              "name": "rv1",
+              "width": 406,
+              "height": 210,
+              "fill": "#1E60E8",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JcuXj",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#FFFFFF",
+                  "content": "«Покрасили всю квартиру за 2 дня. Идеально ровно, без запаха. Очень доволен!»",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zoQTC",
+                  "x": 24,
+                  "y": 120,
+                  "fill": "#FFFFFF",
+                  "content": "Алексей К.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "X9zOi",
+                  "x": 24,
+                  "y": 148,
+                  "fill": "#93C5FD",
+                  "content": "Москва, 2024",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "00NbH",
+              "x": 517,
+              "y": 128,
+              "name": "rv2",
+              "width": 406,
+              "height": 210,
+              "fill": "#1E60E8",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g2aAJ",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#FFFFFF",
+                  "content": "«Офис 200 м², покрасили за выходные. Работали аккуратно, всё убрали за собой.»",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "x70Fr",
+                  "x": 24,
+                  "y": 120,
+                  "fill": "#FFFFFF",
+                  "content": "Марина В.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OSUvl",
+                  "x": 24,
+                  "y": 148,
+                  "fill": "#93C5FD",
+                  "content": "Москва-Сити, 2024",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kuh3n",
+              "x": 954,
+              "y": 128,
+              "name": "rv3",
+              "width": 406,
+              "height": 210,
+              "fill": "#1E60E8",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Nc4nA",
+                  "x": 24,
+                  "y": 24,
+                  "fill": "#FFFFFF",
+                  "content": "«Красили фасад дома. Всё точно по смете, никаких сюрпризов. Рекомендую!»",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "h5cG2",
+                  "x": 24,
+                  "y": 120,
+                  "fill": "#FFFFFF",
+                  "content": "Дмитрий П.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "y7npc",
+                  "x": 24,
+                  "y": 148,
+                  "fill": "#93C5FD",
+                  "content": "Подмосковье, 2024",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bFgqP",
+          "x": 0,
+          "y": 3940,
+          "name": "Сертификаты",
+          "width": 1440,
+          "height": 320,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "XS55P",
+              "x": 80,
+              "y": 48,
+              "fill": "#111827",
+              "content": "Сертификаты и лицензии",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "KMpFR",
+              "x": 80,
+              "y": 128,
+              "name": "ct1",
+              "width": 280,
+              "height": 148,
+              "fill": "#F1F5F9",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fXgrm",
+                  "x": 20,
+                  "y": 16,
+                  "name": "imgC1",
+                  "width": 240,
+                  "height": 96,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UsSvs",
+                      "x": 0,
+                      "y": 36,
+                      "fill": "#1A56DB",
+                      "content": "Сертификат",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UWrhv",
+                  "x": 20,
+                  "y": 120,
+                  "fill": "#6B7280",
+                  "content": "Сертификат 1",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vWDAd",
+              "x": 386,
+              "y": 128,
+              "name": "ct2",
+              "width": 280,
+              "height": 148,
+              "fill": "#F1F5F9",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "quL42",
+                  "x": 20,
+                  "y": 16,
+                  "name": "imgC2",
+                  "width": 240,
+                  "height": 96,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UplGs",
+                      "x": 0,
+                      "y": 36,
+                      "fill": "#1A56DB",
+                      "content": "Сертификат",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "S9Fo6",
+                  "x": 20,
+                  "y": 120,
+                  "fill": "#6B7280",
+                  "content": "Сертификат 2",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZGSrH",
+              "x": 692,
+              "y": 128,
+              "name": "ct3",
+              "width": 280,
+              "height": 148,
+              "fill": "#F1F5F9",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sU1x4",
+                  "x": 20,
+                  "y": 16,
+                  "name": "imgC3",
+                  "width": 240,
+                  "height": 96,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AleEx",
+                      "x": 0,
+                      "y": 36,
+                      "fill": "#1A56DB",
+                      "content": "Сертификат",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "5dQI7",
+                  "x": 20,
+                  "y": 120,
+                  "fill": "#6B7280",
+                  "content": "Сертификат 3",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "07Mbp",
+              "x": 998,
+              "y": 128,
+              "name": "ct4",
+              "width": 280,
+              "height": 148,
+              "fill": "#F1F5F9",
+              "cornerRadius": 12,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rbRSO",
+                  "x": 20,
+                  "y": 16,
+                  "name": "imgC4",
+                  "width": 240,
+                  "height": 96,
+                  "fill": "#DBEAFE",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vUqor",
+                      "x": 0,
+                      "y": 36,
+                      "fill": "#1A56DB",
+                      "content": "Сертификат",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "34Kag",
+                  "x": 20,
+                  "y": 120,
+                  "fill": "#6B7280",
+                  "content": "Сертификат 4",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5ejTW",
+          "x": 0,
+          "y": 4260,
+          "name": "FAQ",
+          "width": 1440,
+          "height": 440,
+          "fill": "#F1F5F9",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "4W6qD",
+              "x": 80,
+              "y": 48,
+              "fill": "#111827",
+              "content": "Частые вопросы",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Rk5Wd",
+              "x": 80,
+              "y": 128,
+              "name": "fq1",
+              "width": 1280,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sgIx2",
+                  "x": 24,
+                  "y": 16,
+                  "fill": "#111827",
+                  "content": "Сколько времени занимает покраска квартиры?",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "WnzBj",
+                  "x": 1232,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "▸",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TJ4PI",
+              "x": 80,
+              "y": 192,
+              "name": "fq2",
+              "width": 1280,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6dl8G",
+                  "x": 24,
+                  "y": 16,
+                  "fill": "#111827",
+                  "content": "Нужно ли куда-то уходить во время работы?",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "V5Pnt",
+                  "x": 1232,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "▸",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "de9Iq",
+              "x": 80,
+              "y": 256,
+              "name": "fq3",
+              "width": 1280,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LY37O",
+                  "x": 24,
+                  "y": 16,
+                  "fill": "#111827",
+                  "content": "Какую краску вы используете?",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vb6RP",
+                  "x": 1232,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "▸",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VUSYE",
+              "x": 80,
+              "y": 320,
+              "name": "fq4",
+              "width": 1280,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xe970",
+                  "x": 24,
+                  "y": 16,
+                  "fill": "#111827",
+                  "content": "Даёте ли вы гарантию на работу?",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Uj74a",
+                  "x": 1232,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "▸",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vMYBp",
+              "x": 80,
+              "y": 384,
+              "name": "fq5",
+              "width": 1280,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wqjxi",
+                  "x": 24,
+                  "y": 16,
+                  "fill": "#111827",
+                  "content": "Как рассчитывается стоимость?",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "9fIXK",
+                  "x": 1232,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "▸",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aN4h4",
+          "x": 0,
+          "y": 4960,
+          "name": "Footer",
+          "width": 1440,
+          "height": 140,
+          "fill": "#0F172A",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "AcjCL",
+              "x": 80,
+              "y": 32,
+              "fill": "#FFFFFF",
+              "content": "Красим.ру",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "aIBOc",
+              "x": 80,
+              "y": 72,
+              "fill": "#94A3B8",
+              "content": "Профессиональная безвоздушная покраска в Москве",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "gzGjO",
+              "x": 1180,
+              "y": 32,
+              "fill": "#94A3B8",
+              "content": "+7 (XXX) XXX-XX-XX",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "hCMDb",
+              "x": 80,
+              "y": 104,
+              "fill": "#475569",
+              "content": "© 2025 Красим.ру — Все права защищены",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Eqcpg",
+          "x": 0,
+          "y": 80,
+          "name": "Hero",
+          "width": 1440,
+          "height": 640,
+          "fill": "#0D1B2A",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NYfZ2",
+              "x": 0,
+              "y": 0,
+              "name": "[ Фото: процесс покраски ]",
+              "width": 1440,
+              "height": 640,
+              "fill": "#1A2744",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Cblcu",
+                  "x": 0,
+                  "y": 304,
+                  "fill": "#334155",
+                  "content": "ФОНОВОЕ ИЗОБРАЖЕНИЕ — процесс безвоздушной покраски",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qVw6e",
+              "x": 80,
+              "y": 80,
+              "fill": "#93C5FD",
+              "content": "БЕЗВОЗДУШНАЯ ПОКРАСКА",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "JJpmo",
+              "x": 80,
+              "y": 116,
+              "fill": "#FFFFFF",
+              "content": "Профессиональная покраска любых поверхностей в Москве",
+              "fontFamily": "Inter",
+              "fontSize": 52,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "RrTs5",
+              "x": 80,
+              "y": 320,
+              "fill": "#CBD5E1",
+              "content": "Без запаха, без пыли, без лишних хлопот. Работаем по всей Москве и МО.",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "hFNa4",
+              "x": 80,
+              "y": 420,
+              "name": "cbtn",
+              "width": 310,
+              "height": 56,
+              "fill": "#1A56DB",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ft3BB",
+                  "x": 0,
+                  "y": 18,
+                  "fill": "#FFFFFF",
+                  "content": "Позвонить +7 (XXX) XXX-XX-XX",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vq8io",
+              "x": 406,
+              "y": 420,
+              "name": "wbtn",
+              "width": 220,
+              "height": 56,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qdv1B",
+                  "x": 0,
+                  "y": 18,
+                  "fill": "#1A56DB",
+                  "content": "Написать в МАКС",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oYowY",
+              "x": 760,
+              "y": 60,
+              "name": "Иллюстрация (человек красит стену)",
+              "width": 600,
+              "height": 520,
+              "fill": "#E8F0FE",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "J9w6H",
+                  "x": 100,
+                  "y": 220,
+                  "fill": "#94A3B8",
+                  "content": "Место для иллюстрации",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "usAUj",
+                  "x": 100,
+                  "y": 252,
+                  "fill": "#94A3B8",
+                  "content": "(человек красит стену)",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QskGh",
+          "x": 0,
+          "y": 4700,
+          "name": "CTA",
+          "width": 1440,
+          "height": 260,
+          "fill": "#0D1B2A",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "29EdQ",
+              "x": 0,
+              "y": 0,
+              "name": "[ Фото: рабочий красит стену ]",
+              "width": 1440,
+              "height": 260,
+              "fill": "#1A2744",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b5rif",
+                  "x": 0,
+                  "y": 120,
+                  "fill": "#334155",
+                  "content": "ФОНОВОЕ ИЗОБРАЖЕНИЕ — рабочий с распылителем",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jAlhE",
+              "x": 0,
+              "y": 48,
+              "fill": "#FFFFFF",
+              "content": "Готовы начать? Оставьте заявку сейчас",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "eynIt",
+              "x": 0,
+              "y": 112,
+              "fill": "#93C5FD",
+              "content": "Бесплатный замер и консультация",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Qqhsp",
+              "x": 450,
+              "y": 164,
+              "name": "ctaCbtn",
+              "width": 240,
+              "height": 52,
+              "fill": "#1A56DB",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gXUvF",
+                  "x": 0,
+                  "y": 16,
+                  "fill": "#FFFFFF",
+                  "content": "+7 (XXX) XXX-XX-XX",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6lawJ",
+              "x": 710,
+              "y": 164,
+              "name": "ctaMbtn",
+              "width": 240,
+              "height": 52,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dn7BX",
+                  "x": 0,
+                  "y": 16,
+                  "fill": "#1A56DB",
+                  "content": "Написать в МАКС",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qy9Ky",
+          "x": 0,
+          "y": 720,
+          "name": "Stats Bar",
+          "width": 1440,
+          "height": 160,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "A5jce",
+              "x": 80,
+              "y": 36,
+              "fill": "#1A56DB",
+              "content": "500+",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "JfFPf",
+              "x": 80,
+              "y": 94,
+              "fill": "#6B7280",
+              "content": "выполненных проектов",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "hzQeM",
+              "x": 413,
+              "y": 36,
+              "fill": "#1A56DB",
+              "content": "50 000 м²",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Aofld",
+              "x": 413,
+              "y": 94,
+              "fill": "#6B7280",
+              "content": "покрашено поверхностей",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "67TCw",
+              "x": 746,
+              "y": 36,
+              "fill": "#1A56DB",
+              "content": "10 лет",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "1tmj9",
+              "x": 746,
+              "y": 94,
+              "fill": "#6B7280",
+              "content": "на рынке",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "erRfn",
+              "x": 1079,
+              "y": 36,
+              "fill": "#1A56DB",
+              "content": "3 года",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "L2Zb3",
+              "x": 1079,
+              "y": 94,
+              "fill": "#6B7280",
+              "content": "гарантия на работу",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YUA6N",
+          "x": 0,
+          "y": 1220,
+          "name": "Услуги (Зигзаг)",
+          "width": 1440,
+          "height": 980,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "q302b",
+              "x": 80,
+              "y": 36,
+              "fill": "#111827",
+              "content": "Наши услуги",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "z8YyE",
+              "x": 80,
+              "y": 112,
+              "name": "[ Фото: покраска квартиры ]",
+              "width": 660,
+              "height": 240,
+              "fill": "#DBEAFE",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "65QrN",
+                  "x": 0,
+                  "y": 108,
+                  "fill": "#94A3B8",
+                  "content": "Фото: покраска квартиры",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "iFlpK",
+              "x": 780,
+              "y": 132,
+              "fill": "#111827",
+              "content": "Квартиры и дома",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Ogrmq",
+              "x": 780,
+              "y": 180,
+              "fill": "#6B7280",
+              "content": "Стены, потолки, любые поверхности. Безвоздушное нанесение — без запаха и следов на полу.",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uevVx",
+              "x": 780,
+              "y": 300,
+              "name": "btn1",
+              "width": 200,
+              "height": 48,
+              "fill": "#1A56DB",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8LY3l",
+                  "x": 0,
+                  "y": 14,
+                  "fill": "#FFFFFF",
+                  "content": "Узнать цену",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "gsIUJ",
+              "x": 80,
+              "y": 412,
+              "fill": "#111827",
+              "content": "Офисы и коммерция",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "aahAJ",
+              "x": 80,
+              "y": 460,
+              "fill": "#6B7280",
+              "content": "Работаем в нерабочее время — без остановки бизнеса. Любые объёмы.",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "YWJwU",
+              "x": 80,
+              "y": 576,
+              "name": "btn2",
+              "width": 200,
+              "height": 48,
+              "fill": "#1A56DB",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Uwztm",
+                  "x": 0,
+                  "y": 14,
+                  "fill": "#FFFFFF",
+                  "content": "Узнать цену",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xFEMX",
+              "x": 700,
+              "y": 392,
+              "name": "[ Фото: покраска офиса ]",
+              "width": 660,
+              "height": 240,
+              "fill": "#DBEAFE",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8tk4a",
+                  "x": 0,
+                  "y": 108,
+                  "fill": "#94A3B8",
+                  "content": "Фото: покраска офиса",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nMerU",
+              "x": 80,
+              "y": 672,
+              "name": "[ Фото: фасад здания ]",
+              "width": 660,
+              "height": 240,
+              "fill": "#DBEAFE",
+              "cornerRadius": 16,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Az3Rv",
+                  "x": 0,
+                  "y": 108,
+                  "fill": "#94A3B8",
+                  "content": "Фото: фасад здания",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "LqpxL",
+              "x": 780,
+              "y": 692,
+              "fill": "#111827",
+              "content": "Фасады зданий",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "nGNOv",
+              "x": 780,
+              "y": 740,
+              "fill": "#6B7280",
+              "content": "Промышленные объёмы, любая высота, равномерное покрытие атмосферостойкой краской.",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "XL7et",
+              "x": 780,
+              "y": 856,
+              "name": "btn3",
+              "width": 200,
+              "height": 48,
+              "fill": "#1A56DB",
+              "cornerRadius": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9I6jA",
+                  "x": 0,
+                  "y": 14,
+                  "fill": "#FFFFFF",
+                  "content": "Узнать цену",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KpZ33",
+          "x": 1332,
+          "y": 4480,
+          "name": "Floating Call Button (фиксированная)",
+          "width": 80,
+          "height": 80,
+          "fill": "#1A56DB",
+          "cornerRadius": 40,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "evHpA",
+              "x": 0,
+              "y": 28,
+              "fill": "#FFFFFF",
+              "content": "ТЕЛ",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UG4lQ",
+          "x": 1140,
+          "y": 4492,
+          "name": "badge",
+          "width": 180,
+          "height": 32,
+          "fill": "#0F172A",
+          "cornerRadius": 6,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "f4rm7",
+              "x": 0,
+              "y": 8,
+              "fill": "#94A3B8",
+              "content": "Всегда видна на экране",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
